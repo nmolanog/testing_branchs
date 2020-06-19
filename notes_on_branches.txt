@@ -11,3 +11,9 @@ git push -u origin branch
 ##make commits in branch1
 git push origin branch1
 
+###merge branchs go to master branch first
+git checkout master
+
+##then merge
+git merge branch1
+
