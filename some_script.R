@@ -8,3 +8,4 @@ z1<-runif(1000,5,20)
 z2<-rbeta(1000,.5,.2)
 
 z3<-sample(c("A","B"),100,replace = T)
+z4<-sample(c("X","Y","Z"),100,replace = T)
