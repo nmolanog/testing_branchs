@@ -17,3 +17,9 @@ git checkout master
 ##then merge
 git merge branch1
 
+###to resolve conflicts must learn how
+
+### to give priority for branch1 use 
+git merge -Xtheirs branch1
+
+
