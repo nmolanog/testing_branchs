@@ -1,0 +1,13 @@
+
+#create new branch
+git branch branch1
+
+#get to the branch
+git checkout branch1
+
+##add branch to github
+git push -u origin branch
+
+##make commits in branch1
+git push origin branch1
+

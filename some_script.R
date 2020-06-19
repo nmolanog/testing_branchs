@@ -3,8 +3,9 @@
 #######################
 rm(list=ls())
 
-z0<-rnorm(100)
-z1<-runif(1000)
-z2<-rbeta(1000)
+z0<-rnorm(100,10,3)
+z1<-runif(1000,5,20)
+z2<-rbeta(1000,.5,.2)
 
-m0<-lm(z1~z2)
+z3<-sample(c("A","B"),100,replace = T)
+z4<-sample(c("X","Y","Z"),100,replace = T)
