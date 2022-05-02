@@ -1,0 +1,6 @@
+some notes
+create branches: 
+git checkout -b <new_branch>
+
+to push your new branch onto github:
+git push -u origin <new_branch>
