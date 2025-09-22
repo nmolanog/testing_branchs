@@ -5,7 +5,13 @@ git checkout -b <new_branch>
 to push your new branch onto github:
 git push -u origin <new_branch>
 
+to change from one branch to another: 
+git checkout <branch_name>
+
 to merge with master:
 
 git checkout master #just change to master branch
 git merge <new_branch> #merge master with <new_branch>
+
+See commit history graphically for all branches
+git log --all --oneline --graph
