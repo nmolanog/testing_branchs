@@ -13,3 +13,6 @@ plot(z1,z2)
 
 m1<-lm(z0~z1)
 plot(z0,z1)
+
+m2<-lm(z0~z2)
+plot(z0,z2)
